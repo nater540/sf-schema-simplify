@@ -1,0 +1,11 @@
+[package]
+name = "sf-schema-simplify"
+version = "0.1.0"
+authors = ["Nate Strandberg <nater540@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.35"
+structopt = "0.3.21"
+serde_json = "1.0.60"
+serde = { version = "1.0.118", features = ["serde_derive"]}
